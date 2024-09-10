@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="icon" type="image/png" href="spider.png">
+    <link rel="stylesheet" href="design.css">
+
+</head>
+
+<body id="body">
+
+    <nav>
+        <button id="button1">light mode</button>
+    </nav>
+    <div id="container">
+        <form action="hell2.html" onsubmit="return validate()">
+
+            <h2>Enter details</h2>
+            <br>
+            <br>
+            <input type="text" name="name" id="name" required placeholder="name">
+            <br>
+            <br>
+
+            <input type="email" name="email" id="email" required placeholder="email"><br>
+            <input type="password" name="" id="" hidden>
+            <br>
+            <br>
+
+            <input type="password" id="pswd" placeholder="enter password" required class="passwords">
+            <br>
+            <br>
+
+            <input type="password" id="cnfrm" placeholder="confirm password" required class="passwords">
+            <br>
+            <marquee behavior="title" direction="right" id="errormsg"> </marquee>
+            <br>
+
+            <div>
+                <input type="submit" value="Submit" class="button" style="background-color: rgba(7, 124, 85, 0.753);">
+                <input type="reset" value="erase" class="button" style="background-color: rgba(7, 124, 85, 0.753);">
+            </div>
+
+
+            
+        </form>
+    </div>
+    
+    <script src="valid.js"></script>
+
+</body>
+
+</html>
